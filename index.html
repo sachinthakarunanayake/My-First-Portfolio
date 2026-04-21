@@ -20,6 +20,8 @@
           <button class="nav-btn" id="btn-about">About</button>
           <button class="nav-btn" id="btn-projects">Goals</button>
           <button class="nav-btn" id="btn-blog">Blog</button>
+          <button class="nav-btn" id="btn-contact">Contact</button>
+          
         </div>
       </div>
     </nav>
@@ -186,7 +188,7 @@
   </div>
   <!-- ── BLOG BANNER IMAGE ── -->
   <div class="blog-banner">
-    <img src="blog cover 1.jpg" alt="Blog banner" class="blog-banner-img" />
+    <img src="Blog Banner.png" alt="Blog banner" class="blog-banner-img" />
   </div>
 
   <div class="goals-message">
@@ -198,31 +200,82 @@
 
     <!-- BLOG POST CARD — replace href and text with your real post details -->
     
-      <div class ="blog-card-link">
-      <a href="https://medium.com/@sachinthainduwaraofficial/YOUR-POST-SLUG"
-      target="_blank"
-      rel="noopener noreferrer"></a>
-      </div>
       <div class="blog-card-inner">
         <div class="blog-card-meta">
           <span class="blog-source">Medium</span>
           <span class="blog-date">2025</span>
           <span class="blog-tag-pill">published</span>
         </div>
-        <h3 class="blog-card-title">Your Post Title Here</h3>
+        <h3 class="blog-card-title">The Importance of UI/UX Design in Modern Websites</h3>
         <p class="blog-card-desc">
-          A short description or excerpt of your post — replace this with
-          your actual subtitle or a sentence summarising what it's about.
+          A good website is not just about code—it’s about user experience. UI (User Interface) and UX (User Experience) design ensure that users can easily navigate and interact with your website. Clean layouts, responsive design, and fast loading speed play a huge role in keeping visitors engaged.
         </p>
+        <div class ="blog-card-link">
+      <a href="https://medium.com/@sachinthainduwaraofficial/YOUR-POST-SLUG"
+      target="_blank"
+      rel="noopener noreferrer">
+      </div>
         <span class="blog-read-more">
           Read on Medium
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </span>
+      </a> 
       </div>
-    </a>
+    
 
     <!-- Add more cards here in the same pattern when you publish more posts -->
 
+  </div>
+ </section>
+
+ <!-- CONTACT page -->
+<section id="contact-page" class="page">
+  <div class="contact-header">
+    <span class="chip">say hello</span>
+    <h2>Contact</h2>
+  </div>
+
+  <div class="contact-info-row">
+    <div class="info-pill">
+      <i class="fa-regular fa-envelope"></i>
+      <span>sachinthainduwaraofficial@gmail.com</span>
+    </div>
+    <div class="info-pill">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>Kaluthara, Sri Lanka</span>
+    </div>
+  </div>
+
+  <div class="glass-form">
+    <div class="contact-grid">
+      <div class="form-group">
+        <label for="c-name">Name</label>
+        <input type="text" id="c-name" placeholder="Your name" />
+      </div>
+      <div class="form-group">
+        <label for="c-email">Email</label>
+        <input type="email" id="c-email" placeholder="you@example.com" />
+      </div>
+      <div class="form-group full">
+        <label for="c-subject">Subject</label>
+        <input type="text" id="c-subject" placeholder="What's this about?" />
+      </div>
+      <div class="form-group full">
+        <label for="c-message">Message</label>
+        <textarea id="c-message" placeholder="Write your message here..."></textarea>
+      </div>
+    </div>
+
+    <button class="primary-btn" id="contact-submit">
+      Send message <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+    <div class="success-banner" id="success-banner">
+      <i class="fa-solid fa-circle-check"></i>
+      <div>
+        <strong>Message sent!</strong> Thanks for reaching out — I'll get back to you soon.
+      </div>
+    </div>
   </div>
  </section>
 </div>
